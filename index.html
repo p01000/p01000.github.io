@@ -1,7 +1,430 @@
 <!DOCTYPE html>
-<html>
-<body>
-<h1>Hello World</h1>
-<p>I'm 1001</p>
+<html lang="ja" >
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <style class="vjs-styles-defaults">
+        .video-js {
+            width: 300px;
+            height: 150px;
+        }
+
+        .vjs-fluid {
+            padding-top: 56.25%
+        }
+    </style>
+
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="keywords" content="Johnny&#39;s FAMILY CLUB">
+    <meta name="description" content="Johnny&#39;s FAMILY CLUB">
+
+    <title>Johnny's net：ファンクラブ</title>
+
+    <link rel="apple-touch-icon" sizes="152x152"
+        href="https://www.fc-member.johnnys-net.jp/familyclub/assets/icon/appletouchicon.png">
+    <link rel="shortcut icon" href="https://www.fc-member.johnnys-net.jp/familyclub/assets/icon/favicon.big.png">
+    <link rel="icon" href="https://www.fc-member.johnnys-net.jp/familyclub/assets/icon/favicon.small.png"
+        type="image/png">
+
+    <link rel="stylesheet" type="text/css" href="./assets/style.css">
+    <link rel="stylesheet" type="text/css" href="./assets/video.css">
+
+    <script type="text/javascript" src="./assets/application.js"></script>
+    <script type="text/javascript" src="./assets/jquery.min.js"></script>
+  
+    <script type="text/javascript">document.oncontextmenu = function () { return false; }</script>
+
+</head>
+
+<body oncopy="return false" oncontextmenu="return false">
+
+
+    <div id="jfc" dir="ltr">
+        <header id="global-header" class="header container-fluid" role="contentinfo" aria-label="ヘッダー">
+            <div class="gh-masthead">
+                <div class="logo">
+                    <a href="https://www.fc-member.johnnys-net.jp/">
+                        <img src="./assets/logo_JFC.png" alt="Johnny&#39;s FAMILY CLUB">
+                        <span class="hidden">Johnny's FAMILY CLUB</span>
+                    </a>
+                </div>
+            </div>
+            <div class="gh-menu">
+                <nav class="gh-menu-left" role="navigation">
+                    <ul>
+                        <li><a href="https://www.fc-member.johnnys-net.jp/" class="icon-button"><i
+                                    class="ic-home-s"></i>トップ</a></li>
+                        <li><a href="https://www.fc-member.johnnys-net.jp/support_faq/" class="icon-button"><i
+                                    class="ic-faq-s"></i>よくあるご質問・お問合せ</a></li>
+                    </ul>
+                </nav>
+                <nav class="gh-menu-right" role="navigation">
+                    <a href="https://www.fc-member.johnnys-net.jp/logout/" class="icon-button-v"><i
+                            class="ic-logout"></i><span>ログアウト</span></a>
+                </nav>
+            </div>
+            <div class="gh-mobile-menu">
+                <div class="gh-mobile-button">
+                    <button type="button" class="bt-hamburger"><i></i>メニュー</button>
+                </div>
+                <nav class="gh-mobile-menu-nav" role="navigation">
+                    <div class="gh-mobile-menu-login login-user">
+                        <p>
+                            <strong>会員番号 
+                                <span class="cardNo">A-01932579</span> 
+                                （<span class="username">XIAO JUN</span>さん）</strong>
+                        </p>
+                    </div>
+                    <ul>
+                        <li class="icon-button"><i class="ic-home-ms"></i><a
+                                href="https://www.fc-member.johnnys-net.jp/" class="">トップ</a></li>
+                        <li class="icon-button has-child">
+                            <i class="ic-setting-ms"></i>設定
+                            <ul>
+                                <li class="nav-child"><a
+                                        href="https://www.fc-member.johnnys-net.jp/index/renew">ファンクラブ更新方法</a></li>
+                                <li class="nav-child"><a
+                                        href="https://www.fc-member.johnnys-net.jp/index/update">登録内容変更方法</a></li>
+                                <li class="nav-child"><a
+                                        href="https://www.fc-member.johnnys-net.jp/index/reissue">会員証再発行方法</a></li>
+                            </ul>
+                        </li>
+                        <li class="icon-button"><i class="ic-faq-ms"></i><a
+                                href="https://www.fc-member.johnnys-net.jp/support_faq/" class="">よくあるご質問・お問合せ</a></li>
+                        <li class="icon-button"><i class="ic-tv-ms"></i><a href="https://www.johnnys-net.jp/"
+                                class="">Johnny’s net</a></li>
+                        <li class="icon-button"><i class="ic-signup-ms"></i><a
+                                href="https://www.johnnys-net.jp/page?id=employ" class="">採用情報</a></li>
+                        <li class="icon-button"><i class="ic-signup-ms"></i><a
+                                href="https://www.johnnys-net.jp/page?id=sitepolicy" class="">サイトポリシー</a></li>
+                        <li class="icon-button"><i class="ic-signup-ms"></i><a
+                                href="https://www.johnnys-net.jp/page?id=privacypolicy" class="">プライバシーポリシー</a></li>
+                        <li class="icon-button"><i class="ic-signup-ms"></i><a
+                                href="https://www.johnnys-net.jp/page?id=jfcAgree" class="">会員規約</a></li>
+                        <li class="icon-button"><i class="ic-signup-ms"></i><a
+                                href="https://www.johnnys-net.jp/page?id=ticketAgree" class="">チケット販売規約</a></li>
+                        <li class="icon-button"><i class="ic-setting-ms"></i><a
+                                href="https://www.fc-member.johnnys-net.jp/index/device" class="">推奨環境</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main id="main" class="main" role="main">
+
+
+            <section class="container">
+                <div class="module module-text">
+                    <div class="block-title space-ex-large-top">
+                        <h1 class="center concertTitle">ARASHI Anniversary Tour 5×20</h1>
+                    </div>
+                </div>
+                <div class="module module-text">
+                    <div class="block-content space-large">
+                        <div class="inner-text">
+                            <div class="tourText" data-label="4101">
+                                <style type="text/css">
+                                    #jfc {
+                                        background: url('https://d203sfmui29485.cloudfront.net/ticket_1563_background/7a042c59d6fdad4e09f5242e1959514a_sp') top center repeat;
+                                        background-size: 100% auto;
+                                    }
+
+                                    .header {
+                                        background-color: #fff;
+                                    }
+
+                                    #main {
+                                        background-color: rgba(255, 255, 255, 0.7);
+                                        margin: 1em;
+                                        padding: 1em 0;
+                                    }
+
+                                    .gate_txt {
+                                        text-align: center;
+                                        font-weight: bold;
+                                        margin: 1em 0 !important;
+                                    }
+                                </style>
+
+                                <h4 class="center">デジタルチケット</h4>
+                            </div>
+
+                            <div class="tourText" data-label="4102">
+                                <div class="performance-qr-line"></div>
+                                <h4>
+                                    【代表者】<span class="cardNo">A-01932579</span>&emsp;<span
+                                        class="username">ＸＩＡＯ　ＪＵＮ</span><br>
+                                    <span class="peerArea" style="display:none;">【同行者】<span
+                                            class="peerCardNo">A-02421527</span>&emsp;<span
+                                            class="peer">ＬＩ　ＸＩＡＮＧ</span></span>
+                                </h4>
+                                <span class="peerArea" style="display:none;">※同行者は、お申込み時にご入力いただいたお名前を表示しています。<br></span>
+                            </div>
+
+                            <p class="center">
+                                <img src="./assets/qr.png">
+                            </p>
+
+                            <div class="tourText" data-label="4103">
+                                <div class="performance-qr-line"></div>
+                            </div>
+
+                            <div class="tourText" data-label="4104">
+                                <p class="gate_txt">入場口：<span class="gate">北ゲート</span></p>
+                            </div>
+
+                            <div class="tourText" data-label="4105">※会場到着前にこちらの「QRコード」を表示させた状態でご来場ください。<br>
+                                ※来場者全員おそろいのうえ、入場口までお越しください。<br>
+                                <br>
+                                <span style="font-size:1.2em;">
+                                    会場：<span style="font-weight: bold;" class="locationDetail">[北海道] 札幌ドーム</span><br>
+                                    日時：<span style="font-weight: bold;" class="date">2019年05月18日（土）</span><br>
+                                    開場：<span style="font-weight: bold;" class="enterTime">16:00</span><br>
+                                    開演：<span style="font-weight: bold;" class="startTime">18:00</span><br>
+                                    <br>
+                                    チケット枚数　<span style="font-weight: bold;" class="count">1枚</span><br>
+                                </span>
+                                全席指定　<br>
+                                <br>
+                                下記【当日の持ち物】【注意事項】をかならずご確認のうえ、ご来場ください。<br>
+                                <br>
+                                【当日の持ち物】<br>
+                                ①デジタルチケット（QRコード）<br>
+                                ＜スマートフォン・タブレット端末＞<br>
+                                公演当日は本ページに表示されるデジタルチケット（QRコード）を使用してのご入場となります。<br>
+                                ※会場に充電できるスペースは設けておりません。かならず充電を十分になさってからお越しください。<br>
+                                <br>
+                                ②本人確認証明書（コピー不可）<br>
+                                本人確認証明書について、詳しくは＜<a
+                                    href="https://www.fc-member.johnnys-net.jp/performance_faq/?tour=1609&amp;category=98">こちら</a>＞をご確認ください。<br>
+                                ※来場者全員かならずお持ちください。<br>
+                                ※本人確認証明書をお持ちでない方は、ご入場いただけない場合がございます。<br>
+                                <br>
+                                ③嵐ファンクラブ会員証<br>
+                                <br>
+                                【デジタルチケット（QRコード）入場に関するご注意】<br>
+                                ※公演当日、ご入場時に本人確認を行います。入場ゲートへお越しの際、かならずご当選のデジタルチケット（QRコード）、会員証、本人確認証明書（コピー不可）をお手元にご用意ください。<br>
+                                ※お座席番号は、ご入場の際に発券される座席券にてお知らせいたします。あらかじめ抽選で決定していますので、先着順ではございません。<br>
+                                ※主催者よりみなさまにお知らせがない限り、スクリーンショットの表示では、ご入場いただけません。<br>
+                                万が一の大規模な電波障害等の場合には、主催者よりスクリーンショットでの入場をお知らせする場合もありますので、デジタルチケット（QRコード）の表示ができましたら、スクリーンショットでかならず保存してください。<br>
+                                ※ご入場後の再入場はできません。<br>
+                                ※当選権利の譲渡・売買は禁止です。<br>
+                                <br>
+                                <a href="https://www.fc-member.johnnys-net.jp/index/concert_digital_ticket"
+                                    class="round-button blue-line">公演に関する注意事項</a></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+        </main>
+
+        <footer id="global-footer" class="footer" role="contentinfo">
+            <div class="container">
+                <div class="gf-category-link">
+                    <div class="row row-space60">
+                        <div class="col col-1of4">
+                            <ul class="gf-category-list">
+                                <li><a href="https://www.fc-member.johnnys-net.jp/">トップ</a></li>
+                            </ul>
+                        </div>
+                        <div class="col col-1of4">
+                            <ul class="gf-category-list">
+                                <li><a href="https://www.fc-member.johnnys-net.jp/index/renew">ファンクラブ更新方法</a></li>
+                                <li><a href="https://www.fc-member.johnnys-net.jp/index/update">登録内容変更方法</a></li>
+                                <li><a href="https://www.fc-member.johnnys-net.jp/index/reissue">会員証再発行方法</a></li>
+                            </ul>
+                        </div>
+                        <div class="col col-1of4">
+                            <ul class="gf-category-list">
+                                <li><a href="https://www.johnnys-net.jp/">Johnny’s net</a></li>
+                                <li><a href="https://www.johnnys-net.jp/page?id=employ">採用情報</a></li>
+                            </ul>
+                        </div>
+                        <div class="col col-1of4">
+                            <ul class="gf-category-list">
+                                <li><a href="https://www.johnnys-net.jp/page?id=sitepolicy">サイトポリシー</a></li>
+                                <li><a href="https://www.johnnys-net.jp/page?id=privacypolicy">プライバシーポリシー</a></li>
+                                <li><a href="https://www.johnnys-net.jp/page?id=jfcAgree">会員規約</a></li>
+                                <li><a href="https://www.johnnys-net.jp/page?id=ticketAgree">チケット販売規約</a></li>
+                                <li><a href="https://www.fc-member.johnnys-net.jp/index/device">推奨環境</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gf-copyright">
+                    <p>©︎Johnny&amp;Associates. <a href="javascript:;"
+                            class="config-btn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <style>
+        .form-area label {
+            width: 90px;
+            display: inline-block;
+            text-align: right;
+        }
+
+        .form-area input {
+            width: 200px;
+            border: 1px solid #333;
+        }
+
+        .clear-btn {
+            font-size: 22px;
+            color: #333;
+            padding-left: 10px;
+        }
+    </style>
+    <div class="form-area" style="display:none;">
+        <form action="#">
+            <div>
+                <label for="concertTitle">Concert Title: </label>
+                <input type="text" id="concert-title" name="concertTitle"><a href="javascript:;"
+                    class="clear-btn">&times;</a>
+            </div>
+            <div>
+                <label for="cardNo">会員番号: </label>
+                <input type="text" id="cardNo" name="cardNo"><a href="javascript:;" class="clear-btn">&times;</a>
+            </div>
+            <div>
+                <label for="username">代表者: </label>
+                <input type="text" id="username" name="username"><a href="javascript:;" class="clear-btn">&times;</a>
+            </div>
+            <div>
+                <label for="peerCardNo">同行者会員番号: </label>
+                <input type="text" id="peerCardNo" name="peerCardNo"><a href="javascript:;"
+                    class="clear-btn">&times;</a>
+            </div>
+            <div>
+                <label for="peer">同行者: </label>
+                <input type="text" id="peer" name="peer"><a href="javascript:;" class="clear-btn">&times;</a>
+            </div>
+            <div>
+                <label for="gate">入場口: </label>
+                <input type="text" id="gate" name="gate"><a href="javascript:;" class="clear-btn">&times;</a>
+            </div>
+            <div>
+                <label for="locationDetail">会場: </label>
+                <input type="text" id="locationDetail" name="locationDetail"><a href="javascript:;"
+                    class="clear-btn">&times;</a>
+                <div class="locations"></div>
+            </div>
+            <div>
+                <label for="date">日時: </label>
+                <input type="text" id="date" name="date"><a href="javascript:;" class="clear-btn">&times;</a>
+            </div>
+            <div>
+                <label for="enterTime">開場: </label>
+                <input type="text" id="enterTime" name="enterTime"><a href="javascript:;" class="clear-btn">&times;</a>
+            </div>
+            <div>
+                <label for="startTime">開演: </label>
+                <input type="text" id="startTime" name="startTime"><a href="javascript:;" class="clear-btn">&times;</a>
+            </div>
+            <div>
+                <label for="count">チケット枚数: </label>
+                <input type="text" id="count" name="count"><a href="javascript:;" class="clear-btn">&times;</a>
+            </div>
+            <button type="button" class="default-btn1">set default1</button>
+            <button type="button" class="default-btn2">set default2</button>
+            <button type="button" class="reset-btn">reset</button>
+            <button type="button" class="confirm-btn">submit</button>
+        </form>
+        <br>
+        <br>
+        <br>
+    </div>
+    <script>
+        var defaultInfo = [{
+            concertTitle: 'ARASHI Anniversary Tour 5×20',
+            cardNo: 'A-01932579',
+            username: 'ＸＩＡＯ　ＪＵＮ',
+            peer: '',
+            peerCardNo: '',
+            gate: '北ゲート',
+            locationDetail: '[北海道] 札幌ドーム',
+            date: '2019年05月18日（土）',
+            enterTime: '16:00',
+            startTime: '18:00',
+            count: '1'
+        },
+        {
+            concertTitle: 'ARASHI Anniversary Tour 5×20',
+            cardNo: 'A-02395683',
+            username: 'イェ　リンリン',
+            peer: 'ＬＩ　ＸＩＡＮＧ',
+            peerCardNo: 'A-02421527',
+            gate: '北ゲート',
+            locationDetail: '[北海道] 札幌ドーム',
+            date: '2019年05月17日（金）',
+            enterTime: '16:00',
+            startTime: '18:00',
+            count: '2'
+        }],
+            locationDetail = [
+                '[北海道] 札幌ドーム',
+                '[福岡] 福岡 ヤフオク！ドーム',
+                '[東京] 東京ドーム',
+                '[愛知] ナゴヤドーム',
+                '[大阪] 京セラドーム大阪'
+            ];
+        $(function () {
+            // 生成会场按钮
+            $.each(locationDetail, function (i, value) {
+                var aObj = $('<a/>').text(value + ' | ');
+                aObj.on('click', function () {
+                    $('#locationDetail').val(value)
+                })
+                aObj.appendTo('.locations');
+            });
+            $('.config-btn').on('click', function () {
+                $('.form-area').toggle();
+            });
+            // 不填同行，不显示同行区域
+            $('.confirm-btn').on('click', function () {
+                $('input').each(function () {
+                    var name = $(this).attr('name'),
+                        value = $(this).val();
+                    if (name === 'count') value += '枚';
+                    if (name === 'peer') {
+                        if (!value) {
+                            $('.peerArea').hide();
+                        } else {
+                            $('.peerArea').show();
+                        }
+                    }
+                    $('.' + name).text(value);
+                });
+            })
+            $('.default-btn1').on('click', function () {
+                $('input').each(function () {
+                    var name = $(this).attr('name');
+                    $(this).val(defaultInfo[0][name]);
+                })
+            });
+            $('.default-btn2').on('click', function () {
+                $('input').each(function () {
+                    var name = $(this).attr('name');
+                    $(this).val(defaultInfo[1][name]);
+                })
+            });
+            // 全清
+            $('.reset-btn').on('click', function () {
+                $('input').val('');
+            });
+            // 单个清
+            $('.clear-btn').on('click', function () {
+                $(this).prev().val('');
+            })
+        });
+    </script>
 </body>
+
 </html>
