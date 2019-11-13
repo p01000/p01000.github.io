@@ -1004,3 +1004,8 @@ i.ic-update { background-image: url(https://www.fc-member.johnnys-net.jp/familyc
 .sunday, .holiday { color: #ff4444; }
 
 .saturday { color: #3333ff; }
+
+.textCenter{
+  text-align: center;
+  margin-top: -20px;
+}
